@@ -1,0 +1,3 @@
+create table AccountTable(accNo int,accType varchar(20),accBal float,primary key(accNo));
+select * from AccountTable;
+drop table AccountTable;
